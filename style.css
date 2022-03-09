@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font-family: 'Arial Narrow', 'sans-serif';
+    font-family: 'Arial Narrow', sans-serif;
+    color: #ffffff;
 }
+
+h6 {
+    font-family: 'Roboto', sans-serif; 
+}
+
+/*Nav Bar Styling */
+.navbar {
+    font-weight: 700;
+    margin-bottom: 0;
+    background-color: #5f0038;
+    border: 0;
+    font-size: 1rem;
+    letter-spacing: 1 rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+/*Footer Styling*/
+#section-contact {
+    background-color: #5f0038;
+    padding: 20px;
+}
+
+.blackIcon{
+	color: black;
+}
+
