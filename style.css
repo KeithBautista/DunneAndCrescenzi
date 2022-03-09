@@ -27,6 +27,9 @@ h6 {
 #section-contact {
     background-color: #5f0038;
     padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 }
 
 .blackIcon{
