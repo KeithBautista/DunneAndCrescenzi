@@ -23,6 +23,24 @@ h6 {
 	color: #ffffff;
 }
 
+.carousel-item {
+    height: 100%;
+    min-height: 100vh;
+    background: no-repeat center 75% scroll;
+    background-size: cover;
+    }
+
+.carousel-caption {
+	text-transform: uppercase;
+	height: 50vh;
+}
+
+#welcome{
+	font-size: 4rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    height: auto;
+}
+
 /*Footer Styling*/
 #section-contact {
     background-color: #5f0038;
@@ -35,4 +53,6 @@ h6 {
 .blackIcon{
 	color: black;
 }
+
+
 
