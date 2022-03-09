@@ -23,6 +23,7 @@ h6 {
 	color: #ffffff;
 }
 
+/* Carousel Styling */
 .carousel-item {
     height: 100%;
     min-height: 100vh;
@@ -40,6 +41,56 @@ h6 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     height: auto;
 }
+/* End of Carousel Styling*/
+
+/*Start of Contact Us Styling*/
+.card {
+    box-shadow: 0 2px 20px 0 rgba(110, 130, 208, .18);
+}
+
+.card-header {
+    background-color: #5f0038 !important;
+}
+
+.card, .card-header {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-link:after {
+    content: '\2212';
+	width: 35px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 5px;
+	right: 15px;
+	top: 11px;
+	position: absolute;
+	background-color: black;
+    color: #5f0038;
+}
+
+.btn-link{
+	width: 100%;
+	height: 60px;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+
+}
+
+.my-btn {
+    background-color: #5f0038 !important;
+}
+
+#section-bookTable {
+    padding: 5%;
+}
+
+/*End of Contact Us Styling*/
 
 /*Footer Styling*/
 #section-contact {
