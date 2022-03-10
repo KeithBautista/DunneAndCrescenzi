@@ -26,16 +26,13 @@
                     <a class="nav-link cool-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link cool-link" href="index.html">Menu</a>
+                    <a class="nav-link cool-link" href="menu.html">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link cool-link" href="index.html">Events</a>
+                    <a class="nav-link cool-link" href="event.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link cool-link" href="index.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link cool-link" href="index.html">Contact Us</a>
+                    <a class="nav-link cool-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -47,6 +44,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                    <h3 class="text-center"><strong>Frequently Asked Questions</strong></h3>
                     <div class="accordion" id="commonQuestionAccordion">
                         <div class="card">
                             <div class="card-header" id="firstHeading">
@@ -58,7 +56,7 @@
 
                             <div id="firstCard" class="collapse show" aria-labelledby="firstHeading" data-parent="#commonQuestionAccordion">
                                 <div class="card-body">
-                                    We do indeed, I don't want to tell you though.
+                                    We do indeed, we have our flagship restaurant in <a href="https://goo.gl/maps/NCTx2ZfjbwaEKa1h8" target="_blank">Dublin</a> and we have recently opened up a restaurant in <a href="https://goo.gl/maps/88znR7Q81Q5hG2UT6" target="_blank">Kildare Village</a>.
                                 </div>
                             </div>
                         </div>
@@ -73,7 +71,13 @@
 
                             <div id="secondCard" class="collapse" aria-labelledby="secondHeading" data-parent="#commonQuestionAccordion">
                                 <div class="card-body">
-                                    We do indeed, I don't want to tell you though.
+                                    <strong>Dublin:</strong><br>
+                                    <strong>Email:</strong> DunneAndCrescenziDublin@gmail.com<br>
+                                    <strong>Phone Number:</strong> (083) 123 1234
+                                    <br><br>
+                                    <strong>Kildare:</strong><br>
+                                    <strong>Email:</strong> DunneAndCrescenziKildare@gmail.com<br>
+                                    <strong>Phone Number:</strong> (083) 123 1234
                                 </div>
                             </div>
                         </div>
@@ -96,6 +100,7 @@
                 </div>
                 
                 <div class="col-md-6">
+                    <h3 class="text-center"><strong>Book a Table</strong></h3>
                     <form>
                         <div class="form-group">
                             <label for="inputFullName" class="form-label">Full Name</label>
@@ -182,6 +187,66 @@
         </div>
     </section>
 <!--End of Contact Us / FAQ Section-->
+
+<!--Start of Location Info and Google Maps Embed-->
+<h3 class="text-center"><strong>Locations</strong></h3><br>
+    <nav>
+        <div class="nav nav-tabs justify-content-center" id="navigationTab" role="tablist">
+            <a class="nav-item nav-link text-dark cool-link" id="mapDublinLocation" data-toggle="tab" href="#mapDublin" role="tab" aria-controls="mapDublin" aria-selected="true"><h3>Dublin</h3></a> <!--Like Navbar, this is set to true to make sure that it is the first one that shows when the page loads-->
+            <a class="nav-item nav-link text-dark cool-link" id="mapKildareLocation" data-toggle="tab" href="#mapKildare" role="tab" aria-controls="mapKildare" aria-selected="false"><h3>Kildare</h3></a> <!--This is set to false so that if needed, the customer can press it-->
+        </div>
+    </nav>
+
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="mapDublin" role="tabpanel" aria-labelledby="mapDublinLocation">
+            <div class="container pt-5" id="map">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-left"><strong>How you can find us</strong></h3><br>
+                        <h4><strong>Address:</strong></h4>
+                        <p>16 Frederick St S, Dublin</p>
+                        <br>
+                        <h4><strong>Email:</strong></h4>
+                        <p>DunneAndCrescenziDublin@gmail.com</p>
+                        <br>
+                        <h4><strong>Phone Number:</strong></h4>
+                        <p>(083) 123 1234</p>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38137.02710681268!2d-6.284944580288968!3d53.315250772852714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9a4e72e711%3A0x285631208f1b4716!2sDunne%20and%20Crescenzi!5e0!3m2!1sen!2sie!4v1646873003185!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+<!--Start of Kildare Location Info and Google Maps Embed-->
+
+        <div class="tab-pane fade" id="mapKildare" role="tabpanel" aria-labelledby="mapKildareLocation">
+            <div class="container pt-5" id="map">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-left"><strong>How you can find us</strong></h3><br>
+                        <h4><strong>Address:</strong></h4>
+                        <p>39 The Village, Greyabbey, Kildare</p>
+                        <br>
+                        <h4><strong>Email:</strong></h4>
+                        <p>DunneAndCrescenziKildare@gmail.com</p>
+                        <br>
+                        <h4><strong>Phone Number:</strong></h4>
+                        <p>(083) 123 1234</p>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.611755697139!2d-6.91824718406182!3d53.15306199687208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d78c4b7afd82d%3A0xf6ab6ae137f740af!2sL&#39;Officina%20by%20Dunne%20%26%20Crescenzi%20Kildare!5e0!3m2!1sen!2sie!4v1646873067109!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--End of Location Info and Google Maps Embed-->
 
 <!--Start of Footer-->
     <section id="section-contact">
