@@ -186,14 +186,17 @@ iframe {
 .column {
     flex: 25%;
     max-width: 33.3%;
-    padding: 0 4px;
+    padding: 8px;
   }
   
 .column img {
-    margin-top: 8px;
+    margin-top: 16px;
     vertical-align: middle;
     width: 100%;
     border-radius: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: #013220;
   }
 
 @media screen and (max-width: 800px) {
