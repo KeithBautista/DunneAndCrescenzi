@@ -7,9 +7,42 @@ body {
     margin: 0 !important; /* This will make sure that images/content take up the whole page*/
 }
 
+.h3underline {
+    text-decoration: underline;
+    color: #013220;
+}
+
 h6 {
     font-family: 'Lato', sans-serif;
 }
+
+.btn-link{
+	color: #ffffff !important;
+	text-decoration: none !important;
+
+}
+
+/*Start of Underline Link Animation*/
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+/*End of Underline Link Animation*/
 
 /*Nav Bar Styling */
 .navbar {
@@ -92,6 +125,10 @@ h6 {
     padding: 5%;
 }
 
+.tab-content {
+    padding: 32px;
+}
+
 /*End of Contact Us Styling*/
 
 /*Footer Styling*/
@@ -119,6 +156,10 @@ h6 {
 
 .menuPrices {
     float: right;
+}
+
+#menu {
+    padding: 16px;
 }
 /* End of Images on menu.html*/
 
