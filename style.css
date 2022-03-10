@@ -4,6 +4,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: black;
+    margin: 0 !important; /* This will make sure that images/content take up the whole page*/
 }
 
 h6 {
@@ -109,6 +110,7 @@ h6 {
 
 /* Start of Images on menu.html*/
 .menuImages {
+    border-radius: 10px;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -118,5 +120,57 @@ h6 {
 .menuPrices {
     float: right;
 }
-
 /* End of Images on menu.html*/
+
+/* Start of Maps in contact.hmtl */
+
+iframe {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* End of Maps in contact.hmtl */
+
+/* Start of Images in event.hmtl */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+@media screen and (max-width: 800px) {
+.column {
+    flex: 50%;
+    max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+    flex: 100%;
+    max-width: 100%;
+    }
+  }
+  
+/* End of Images in event.hmtl */
+
+
+
