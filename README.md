@@ -161,7 +161,7 @@ This website consists of 4 pages.
 - The carousel consists of 3 images which actively change, they can also be manually changed using the two next and previous controls on either side of the image or by clicking on the horizontal lines on the bottom of the images.
 - In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
 
-![Carousel](docs/features-carousel-cta-button.png)
+![Carousel CTA Button](docs/features-carousel-cta-button.png)
 (docs/features-carousel-prev-next-buttons.png)
 
 #### Menu and Menu Tabs
@@ -169,31 +169,31 @@ This website consists of 4 pages.
 - Included in the Menu page is a tab on the top of the page which the user is able to click. It allows the user to be able to click on the menu on which location they would prefer to dine in.
 - The menu is in a pattern in which it is easy to read, it provides the starters at the beginning and an image on the right which showcases a sample item on the menu.
 
-![Menu and Menu Tabs](docs/features-menu-tabs.png)
-(docs/features-menu-desserts.png)
+![Menu Tabs](docs/features-menu-tabs.png)
+![Menu Dessert Section](docs/features-menu-desserts.png)
 
 #### Gallery 
 
 - There is a separate page in the website named Gallery, this provides users who visit a sample of what Dunne and Crescenzi is able to do in terms of weddings/events/catering.
 
-![Gallery](docs/features-gallery.png)
+![Gallery Page](docs/features-gallery.png)
 
 #### Contact Us
-![Gallery]
+![Contact Us]
 
 - The Contact Us page is separated into 3 separate sections as mentioned earlier
     - Frequently Asked Questions
         - This provides users who visit common questions that have previously been asked. It eliminates the user having to contact and therefore making it a much easier contact.
-        (docs/features-faq-accordion.png)
+        ![FAQ Accordion Active Question](docs/features-faq-accordion.png)
     - Book a Table
         - If the customer prefers to book a table through a form rather than contacting through form, they can (theoretically) do this through the book a table form.
-        (docs/features-faq-accordion.png)
+        ![Book a Table Form](docs/features-contact-form.png)
     - Our Locations
         - Like the menu, "Our Locations" contains a tab which the user is able to click based on which location we offer is more convenient for them. Once clicked the information provided (Address, Email, Phone Number and Map Details) are updated.
-        (docs/features-faq-accordion.png)
-        (docs/features-location-tabs2.png)
+        ![Locations Tab](docs/features-location-tabs.png)
+        ![Locations Tab Information](docs/features-location-tabs2.png)
     
-
+### Validation
 
 
 
