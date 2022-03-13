@@ -34,13 +34,16 @@ h6 {
 
 .nav-item {
     background-color: #013220;
+    color: black !important;
 }
+
 
 /*Start of Underline Link Animation*/
 .cool-link {
     display: inline-block;
     text-decoration: none;
     color: #ffffff !important;
+
 }
 
 .cool-link::after {
@@ -72,6 +75,10 @@ h6 {
 	color: #ffffff;
 }
 
+#navigationTab {
+    background-color: #013220;
+}
+
 /* Carousel Styling */
 .carousel-item {
     height: 100%;
@@ -80,16 +87,14 @@ h6 {
     background-size: cover;
     }
 
-.carousel-caption {
-	text-transform: uppercase;
-	height: 50vh;
-}
 
 .carousel-caption{
 	font-size: 4rem;
+    font-weight: 400px;
     transform: translateY(-50%);
     bottom: initial;
     top: 50%;
+    text-transform: uppercase;
 }
 /* End of Carousel Styling*/
 
@@ -129,12 +134,8 @@ h6 {
 	font-weight: bold;
 	text-align: left;
 	text-decoration: none;
-
 }
 
-.my-btn {
-    background-color: #013220 !important;
-}
 
 #section-bookTable {
     padding: 5%;
@@ -235,8 +236,8 @@ iframe {
     color: #ffffff;
 }
 
-.fab:hover {
-    color: #000;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
 }
 
 
