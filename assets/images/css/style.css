@@ -37,7 +37,6 @@ h6 {
     color: black !important;
 }
 
-
 /*Start of Underline Link Animation*/
 .cool-link {
     display: inline-block;
@@ -249,3 +248,4 @@ iframe {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
+

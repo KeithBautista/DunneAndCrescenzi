@@ -1,7 +1,7 @@
 # Dunne and Crescenzi
 (Developer: Keith Bautista)
 
-![Mockup image]()
+![Mockup image](docs/am-i-responsive.png)
 
 [Live Website](https://keithbautista.github.io/DunneAndCrescenzi/)
 
@@ -90,18 +90,18 @@ Lato with from Google Fonts was used for the majority of this project with a fal
 The page created is structured in a way which is easy recognizable to other web pages in the way it has a navigation bar on the top of the page and a footer at the bottom of each page. 
 The navaigation bar is duplicated in each page so that it is easy to navigate to other pages from the main home page. On this, the website consists of 4 separate pages:
 
-Home: This is the main page of the website, it consists of a carousel with 3 images that prompts the customer to book a table with the restaurant. The button redirects to the contact us page.
+- Home: This is the main page of the website, it consists of a carousel with 3 images that prompts the customer to book a table with the restaurant. The button redirects to the contact us page.
 
-Menu:This page provides the menu for Dunne and Crescenzi, it provides tabs at the top of the page which allows the user to switch between which location they would prefer to dine in.
+- Menu: This page provides the menu for Dunne and Crescenzi, it provides tabs at the top of the page which allows the user to switch between which location they would prefer to dine in.
 
-Gallery:This page consists of several images in a grid pattern which showcases the capabilities of Dunne and Crescenzi in terms of event holding/catering.
+- Gallery: This page consists of several images in a grid pattern which showcases the capabilities of Dunne and Crescenzi in terms of event holding/catering.
 
-Contact Us:
-The contact us page is divided into 3 sections. "Frequently asked questions", "Book a table" as well as "Our Locations". 
+- Contact Us:
+    - The contact us page is divided into 3 sections. "Frequently asked questions", "Book a table" as well as "Our Locations". 
 
-Frequently asked questions consists of 3 vertivally aligned cards which once clicked expands to answer the question on the card.
+    - Frequently asked questions consists of 3 vertivally aligned cards which once clicked expands to answer the question on the card.
 
-Book a table consists of a form again veritically aligned on which the user can fill our to ask a query.
+    - Book a table consists of a form again veritically aligned on which the user can fill our to ask a query.
 
 The section "Our Locations" follows the flow of the menu page in which that we provide two different clickable tabs in which the user would like to dine in. Once clicked the location, email address and phone number of each location is provided.
 
@@ -123,3 +123,43 @@ The section "Our Locations" follows the flow of the menu page in which that we p
 <summary>Contact Us</summary>
 <img src="docs/contact-us-wf.png">
 </details>
+
+### Technologies Used During Creation
+
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Bootstrap v4.6
+- Git
+- Github
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Font Awesome
+- Favicon.io
+- Unsplash
+- Pexels
+- imagecompressor (Compressing Images)
+- cloudconvert (Converting Images into WebP Format)
+
+### Features
+
+This website consists of 4 pages.
+
+#### Logo and Navigation Bar
+
+- The navbar is completely responsive and turns into a toggler (hamburger menu) once the screen becomes too small
+    - The navbar can be found on all 4 pages of the site.
+    - It allows the customer to easily navigate the site.
+    - Once the user hovers over a link it an animated underline activates under the link.
+
+![Logo and Navbar](docs/features-nav-bar-and-logo.png)
+
+#### Carousel
+
+- The carousel consists of 3 images which actively change, they can also be manually changed using the two next and previous controls on either side of the image or by clicking on the horizontal lines on the bottom of the images.
+- In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
+
+![Carousel](docs/features-carousel-cta-button.png)
+(docs/features-carousel-prev-next-buttons.png)
