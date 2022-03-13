@@ -95,7 +95,11 @@ h6 {
     top: 50%;
     text-transform: uppercase;
     font-weight: 900;
+}
 
+/* RGB Includes an alpha value which mimics opacity*/
+.carousel-caption-background {
+    background: rgb(52, 58, 64, 0.6);
 }
 /* End of Carousel Styling*/
 
