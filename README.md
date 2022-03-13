@@ -90,17 +90,36 @@ Lato with from Google Fonts was used for the majority of this project with a fal
 The page created is structured in a way which is easy recognizable to other web pages in the way it has a navigation bar on the top of the page and a footer at the bottom of each page. 
 The navaigation bar is duplicated in each page so that it is easy to navigate to other pages from the main home page. On this, the website consists of 4 separate pages:
 
-Home: 
-    This is the main page of the website, it consists of a carousel with 3 images that prompts the customer to book a table with the restaurant. The button redirects to the contact us page.
-Menu:
-    This page provides the menu for Dunne and Crescenzi, it provides tabs at the top of the page which allows the user to switch between which location they would prefer to dine in.
-Gallery:
-    This page consists of several images in a grid pattern which showcases the capabilities of Dunne and Crescenzi in terms of event holding/catering.
+Home: This is the main page of the website, it consists of a carousel with 3 images that prompts the customer to book a table with the restaurant. The button redirects to the contact us page.
+
+Menu:This page provides the menu for Dunne and Crescenzi, it provides tabs at the top of the page which allows the user to switch between which location they would prefer to dine in.
+
+Gallery:This page consists of several images in a grid pattern which showcases the capabilities of Dunne and Crescenzi in terms of event holding/catering.
+
 Contact Us:
-    The contact us page is divided into 3 sections. "Frequently asked questions", "Book a table" as well as "Our Locations". 
-    
-        Frequently asked questions consists of 3 vertivally aligned cards which once clicked expands to answer the question on the card.
+The contact us page is divided into 3 sections. "Frequently asked questions", "Book a table" as well as "Our Locations". 
 
-        Book a table consists of a form again veritically aligned on which the user can fill our to ask a query.
+Frequently asked questions consists of 3 vertivally aligned cards which once clicked expands to answer the question on the card.
 
-        The section "Our Locations" follows the flow of the menu page in which that we provide two different clickable tabs in which the user would like to dine in. Once clicked the location, email address and phone number of each location is provided.
+Book a table consists of a form again veritically aligned on which the user can fill our to ask a query.
+
+The section "Our Locations" follows the flow of the menu page in which that we provide two different clickable tabs in which the user would like to dine in. Once clicked the location, email address and phone number of each location is provided.
+
+### Wireframes
+
+<details>
+<summary>Home</summary>
+<img src="docs/home-page-wf.png">
+</details>
+<details>
+<summary>Menu</summary>
+<img src="docs/menu-wf.png">
+</details>
+<details>
+<summary>Gallery</summary>
+<img src="docs/gallery-wf.png">
+</details>
+<details>
+<summary>Contact Us</summary>
+<img src="docs/contact-us-wf.png">
+</details>
