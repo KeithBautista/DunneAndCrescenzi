@@ -32,11 +32,15 @@ h6 {
     color: #013220;
 }
 
+.nav-item {
+    background-color: #013220;
+}
+
 /*Start of Underline Link Animation*/
 .cool-link {
     display: inline-block;
-    color: #000;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .cool-link::after {
@@ -44,7 +48,7 @@ h6 {
     display: block;
     width: 0;
     height: 3px;
-    background: #000;
+    background: #ffffff !important;
     transition: width .3s;
 }
 
