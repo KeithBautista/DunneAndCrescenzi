@@ -21,6 +21,10 @@ h6 {
 
 }
 
+#errorMessageBackground {
+    background-color: #013220;
+}
+
 .eventHeading {
     font-family: 'Satisfy', cursive, sans-serif;
     font-size: 46px;
