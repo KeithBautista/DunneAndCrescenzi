@@ -163,9 +163,9 @@ body {
 #section-contact404 {
     background-color: #013220;
     padding: 20px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0 !important;
+    bottom: 0px !important;
     color: #ffffff;
 }
 
