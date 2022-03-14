@@ -27,6 +27,12 @@
 5. [Structure of Pages](#structure-of-pages)
 
 6. [Wireframes](#wireframes)
+
+7. [Technologies Used During Creation](#technologies-used-during-creation)
+
+8. [Frameworks & Tools](#frameworks-&-tools)
+
+
     
     
 
