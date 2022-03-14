@@ -9,6 +9,9 @@
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#targer-audience)
+    2. [User Requirements](#user-requirement)
 
 
 ## Project Goals
