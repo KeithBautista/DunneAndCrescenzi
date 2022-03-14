@@ -51,20 +51,19 @@
 
 #### Returning User
 
-1. As a returning user I would like to see the menu for the different location that they offer.
-2. As a returning user I would like to know what the new location offers in terms of food.
-3. As a returning user I would like to know what the opening times are for each location that you offer.
-4. As a returning user I would like to know the address for each location offered.
-5. As a returning user I would like to know how to get in contact with the business through email.
-6. As a returning user I would like to know how to get in touch with the business through social media.
+6. As a returning user I would like to see the menu for the different location that they offer.
+7. As a returning user I would like to know what the opening times are for each location that you offer.
+8. As a returning user I would like to know the address for each location offered.
+9. As a returning user I would like to know how to get in contact with the business through email.
+10. As a returning user I would like to know how to get in touch with the business through social media.
 
 #### Site Owner
 
-7. As the site owner I want users to know what what the restaurant offers and the prices.
-8. As the site owner I want users to have the ability to get in contact with the business in case further information is needed.
-9. As the site owner I want the users to be able to know which location suits them best to dine in.
-10. As the site owner I would like the users to see through images on what events can be held.
-11. As the site owner I want the users to know our social media handles as word of mouth can increase our site traffic as well as restaurant traffic.
+11. As the site owner I want users to know what what the restaurant offers and the prices.
+12. As the site owner I want users to have the ability to get in contact with the business in case further information is needed.
+13. As the site owner I want the users to be able to know which location suits them best to dine in.
+14. As the site owner I would like the users to see through images on what events can be held.
+15. As the site owner I want the users to know our social media handles as word of mouth can increase our site traffic as well as restaurant traffic.
 
 ## Design Decisions
 
@@ -85,7 +84,7 @@ More specifically green (#013220) was chosen to mimic the herbs and spices assoc
 Lato with from Google Fonts was used for the majority of this project with a fall back of sans serif. Lato was specifically designed to provide clean information in a concise manner.
 
 
-### Structure of Pages
+## Structure of Pages
 
 The page created is structured in a way which is easy recognizable to other web pages in the way it has a navigation bar on the top of the page and a footer at the bottom of each page. 
 The navaigation bar is duplicated in each page so that it is easy to navigate to other pages from the main home page. On this, the website consists of 4 separate pages:
@@ -105,7 +104,7 @@ The navaigation bar is duplicated in each page so that it is easy to navigate to
 
 The section "Our Locations" follows the flow of the menu page in which that we provide two different clickable tabs in which the user would like to dine in. Once clicked the location, email address and phone number of each location is provided.
 
-### Wireframes
+## Wireframes
 
 <details>
 <summary>Home</summary>
@@ -128,12 +127,12 @@ The section "Our Locations" follows the flow of the menu page in which that we p
 <img src="docs/404-wf.png">
 </details>
 
-### Technologies Used During Creation
+## Technologies Used During Creation
 
 - HTML
 - CSS
 
-### Frameworks & Tools
+## Frameworks & Tools
 - Bootstrap v4.6
 - Git
 - Github
@@ -147,11 +146,11 @@ The section "Our Locations" follows the flow of the menu page in which that we p
 - imagecompressor (Compressing Images)
 - cloudconvert (Converting Images into WebP Format)
 
-### Features
+## Features
 
 This website consists of 4 pages.
 
-#### Logo and Navigation Bar
+### Logo and Navigation Bar
 
 - The navbar is completely responsive and turns into a toggler (hamburger menu) once the screen becomes too small
     - The navbar can be found on all 4 pages of the site.
@@ -160,27 +159,27 @@ This website consists of 4 pages.
 
 ![Logo and Navbar](docs/features-nav-bar-and-logo.png)
 
-#### Carousel
+### Carousel
 
 - The carousel consists of 3 images which actively change, they can also be manually changed using the two next and previous controls on either side of the image or by clicking on the horizontal lines on the bottom of the images.
 - In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
 
 ![Carousel Showcase Prev and Next Buttons](docs/features-carousel-prev-next-buttons.png)
 
-#### Menu and Menu Tabs
+### Menu and Menu Tabs
 
 - Included in the Menu page is a tab on the top of the page which the user is able to click. It allows the user to be able to click on the menu on which location they would prefer to dine in.
 - The menu is in a pattern in which it is easy to read, it provides the starters at the beginning and an image on the right which showcases a sample item on the menu.
 
 ![Menu Tabs](docs/features-menu-tabs.png)
 
-#### Gallery 
+### Gallery 
 
 - There is a separate page in the website named Gallery, this provides users who visit a sample of what Dunne and Crescenzi is able to do in terms of weddings/events/catering.
 
 ![Gallery Page](docs/features-gallery.png)
 
-#### Contact Us
+### Contact Us
 
 - The Contact Us page is separated into 3 separate sections as mentioned earlier
     - Frequently Asked Questions
@@ -193,14 +192,19 @@ This website consists of 4 pages.
         - Like the menu, "Our Locations" contains a tab which the user is able to click based on which location we offer is more convenient for them. Once clicked the information provided (Address, Email, Phone Number and Map Details) are updated.
         ![Locations Tab Information](docs/features-location-tabs.png)
 
-#### 404 Error Page
+### Footer
+
+- The footer consists of 3 equally alligned columns which provide 3 separate information. Address which provies the address, Follow Us provides the social media clickable icons and Contact Us which provides the phone number for the restaurant.
+![Footer](docs/features-footer-social-media-handles.png)
+
+### 404 Error Page
 
 - The 404.html page consists of the navigation bar as well as the footer that the other pages include. The addition in this page is an image in the middle of the screen as well as a CTA underneath which links back to the main index.html page. By doing this we are eliminating the task for the user to have to click the back button when they have entered a page in which does not exist.
 ![404 Error](docs/features-404-error.png)
     
-### Validation
+## Validation
 
-#### HTML Validation
+### HTML Validation
 
 The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation.
 
@@ -225,7 +229,7 @@ The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Se
 <img src="docs/html-validation-404.png">
 </details>
 
-#### CSS Validation
+### CSS Validation
 
 The <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> was used to validate the CSS of the site. Shown below are screenshots of the validation.
 
@@ -234,7 +238,7 @@ The <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Valid
 <img src="docs/css-validation.png">
 </details>
 
-### Accessibility
+## Accessibility
 
 The WAVE WebAIM Accessibility Tool was used to validate and evaluate the accessibility of each page of the site. Please find the screenshots of these below.
 
@@ -259,7 +263,7 @@ The WAVE WebAIM Accessibility Tool was used to validate and evaluate the accessi
 <img src="docs/wave-accessibility-404.png">
 </details>
 
-### Performance
+## Performance
 
 Tool used was Google Lighthouse which is accessible through the inspect tool, and second to last in its navbar. Like Accessibility, screenshots for performance on each page are below.
 
@@ -285,17 +289,196 @@ While Accessibility, Best Practices and SEO are all 100, Performance is 59 which
 <img src="docs/lighthouse-performance-404.png">
 </details>
 
-### Performing tests on multiple devices
+## Performing tests on multiple devices
 
 The website was tested on the following devices below:
 - Dell Latitude 7820
 - OnePlus Nord
 - Various Devices were also software tested through Google's Chrome Developer Tool which enables you to toggle the screen size of different devices.
 
-### Browser Compatibility
+## Browser Compatibility
 
 The website was tested on the following browsers:
 - Google Chrome
 - Brave
 - Microsoft Edge
 
+## Testing User Stories
+
+#### First Time User
+
+1. As a first time user I would like to see a simple layout that is easily navigatable.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Ability to Navigate among different pages | Links work as expected and routes to a separate page previous in | Works as expected |
+
+<details>
+<summary>User Story 1 Screenshot</summary>
+<img src="docs/user-story-1.png">
+</details>
+
+2. As a first time user I would like to know what the restaurant has to offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to Menu | Menu page opens and list of foods available is showcased | Works as expected |
+
+<details>
+<summary>User Story 2 Screenshot</summary>
+<img src="docs/user-story-2.png">
+</details>
+
+3. As a first time user I would like to see if they cater to any events.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to Gallery | Gallery page opens multiple images are showcased | Works as expected |
+
+<details>
+<summary>User Story 3 Screenshot</summary>
+<img src="docs/user-story-3.png">
+</details>
+
+4. As a first time user I would like to know if they cater to children and not only adults.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to Menu | Menu page opens and list of foods available is showcased in which 3rd from the bottom the kids menu is evident | Works as expected |
+
+<details>
+<summary>User Story 4 Screenshot</summary>
+<img src="docs/user-story-4.png">
+</details>
+
+5. As a first time user I would like to know how to get in contact with the business to conduct a reservation.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Carousel | Navigate to Book a Table | Contact page opens in with an appropriate subheading named "Book A Table" opens | Works as expected |
+| Contact Us | Navigate to Contact Us | Contact page opens in with an appropriate subheading named "Book A Table" opens | Works as expected |
+
+<details>
+<summary>User Story 5 Screenshot</summary>
+<img src="docs/user-story-5.png">
+<img src="docs/user-story-5_1.png">
+</details>
+
+#### Returning User
+
+6. As a returning user I would like to see the menu for the different location that they offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu Tabs | Navigate to Menu on which just underneath the navigation bar are tabs that can be enabled to switch between two locations | Menu opens with tabs, once clicked the menu is updated specifically for the location clicked | Works as expected |
+
+<details>
+<summary>User Story 6 Screenshot</summary>
+<img src="docs/user-story-6.png">
+</details>
+
+7. As a returning user I would like to know what the opening times are for each location that you offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| FAQ | Navigate to Contact Us on which just underneath the navigation bar a subheading "Frequently Asked Question" is evident | Once clicked on an accordion is opened and the answer to the question appears | Works as expected |
+
+<details>
+<summary>User Story 7 Screenshot</summary>
+<img src="docs/user-story-7.png">
+</details>
+
+8. As a returning user I would like to know the address for each location offered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and address is provided | Works as expected |
+
+<details>
+<summary>User Story 8 Screenshot</summary>
+<img src="docs/user-story-8.png">
+</details>
+
+9. As a returning user I would like to know how to get in contact with the business through email.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and email address is provided | Works as expected |
+| FAQ | Navigate to Contact Us on which just underneath the navigation bar a subheading "Frequently Asked Question" is evident | Once clicked on an accordion is opened and the answer to the question appears | Works as expected |
+
+
+<details>
+<summary>User Story 9 Screenshot</summary>
+<img src="docs/user-story-9.png">
+</details>
+
+10. As a returning user I would like to know how to get in touch with the business through social media.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and email address is provided | Works as expected |
+
+<details>
+<summary>User Story 10 Screenshot</summary>
+<img src="docs/user-story-10.png">
+</details>
+
+#### Site Owner
+
+11. As the site owner I want users to know what what the restaurant offers and the prices.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to Menu | Provides Menu items as well as prices | Works as expected |
+
+<details>
+<summary>User Story 11 Screenshot</summary>
+<img src="docs/user-story-11.png">
+</details>
+
+12. As the site owner I want users to have the ability to get in contact with the business in case further information is needed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and email address is provided | Works as expected |
+| FAQ | Navigate to Contact Us on which just underneath the navigation bar a subheading "Frequently Asked Question" is evident | Once clicked on an accordion is opened and the answer to the question appears | Works as expected |
+
+
+<details>
+<summary>User Story 12 Screenshot</summary>
+<img src="docs/user-story-9.png">
+</details>
+
+13. As the site owner I want the users to be able to know which location suits them best to dine in.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and address is provided | Works as expected |
+
+<details>
+<summary>User Story 13 Screenshot</summary>
+<img src="docs/user-story-8.png">
+</details>
+
+
+14. As the site owner I would like the users to see through images on what events can be held.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to Gallery | Gallery page opens multiple images are showcased | Works as expected |
+
+<details>
+<summary>User Story 14 Screenshot</summary>
+<img src="docs/user-story-3.png">
+</details>
+
+15. As the site owner I want the users to know our social media handles as word of mouth can increase our site traffic as well as restaurant traffic.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Locations | Navigate to Contact Us on which just underneath the navigation bar a subheading "Our Locations" is evident | Similar to Menu, click on tab for location you prefer to dine in and email address is provided | Works as expected |
+
+<details>
+<summary>User Story 15 Screenshot</summary>
+<img src="docs/user-story-10.png">
+</details>
