@@ -56,13 +56,16 @@
 
 14. [Browser Compatability](#browser-compatability)
 
+15. [Testing User Stories](#testing-user-stories)
+    1. [First Time User](#first-time-user)
+    2. [Returning User](#returning-user)
+    3. [Site Owner](#site-owner)
 
+16. [Deployment](#deployment)
 
-
-
-
-    
-    
+17. [Credits](#credits)
+    1. [Media](#media)
+    2. [Code and Acknowledgements](#code-and-acknowledgements)
 
 ## Project Goals
 
@@ -596,7 +599,7 @@ In order of apearance:
 - [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a
 - [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a
 
-## Code and Acknowledgements
+### Code and Acknowledgements
 Thank you to Mo Shami on his feedback and guidance in getting this project over the line.
 Creating this website meant that I relied on Stack Overflow, W3Schools, Youtube, Bootstrap Documentation and of course the course content for Full Stack Development provided by Code Institute.
 <a href="https://getbootstrap.com/docs/4.1/components/navbar/">Bootstrap</a> used for Navbar, Carousel, Button Format.
