@@ -279,7 +279,7 @@ This website consists of 4 pages.
 
 ### HTML Validation
 
-The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation.
+The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation. Note that all pages pass with no errors as well as no warnings to show.
 
 <details>
 <summary>Home</summary>
@@ -304,7 +304,7 @@ The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Se
 
 ### CSS Validation
 
-The <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> was used to validate the CSS of the site. Shown below are screenshots of the validation.
+The <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> was used to validate the CSS of the site. Shown below are screenshots of the validation. Please note that during validation, the CSS pases with no errors found.
 
 <details>
 <summary>Style.CSS External Style Sheet</summary>
