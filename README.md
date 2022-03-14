@@ -162,7 +162,7 @@ This website consists of 4 pages.
 - In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
 
 ![Carousel CTA Button](docs/features-carousel-cta-button.png)
-(docs/features-carousel-prev-next-buttons.png)
+![Carousel Showcase Prev and Next Buttons](docs/features-carousel-prev-next-buttons.png)
 
 #### Menu and Menu Tabs
 
@@ -195,7 +195,29 @@ This website consists of 4 pages.
     
 ### Validation
 
+#### HTML Validation
 
+The <a href="https://validator.w3.org/">W3 Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation.
+
+<details>
+<summary>Home</summary>
+<img src="docs/html-validation-index.png">
+</details>
+<details>
+<summary>Menu</summary>
+<img src="docs/html-validation-menu.png">
+</details>
+<details>
+<summary>Gallery</summary>
+<img src="docs/html-validation-gallery.png">
+</details>
+<details>
+<summary>Contact Us</summary>
+<img src="docs/html-validation-contact-us.png">
+</details>
+<summary>404</summary>
+<img src="docs/html-validation-404.png">
+</details>
 
 
 

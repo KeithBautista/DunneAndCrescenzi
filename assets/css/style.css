@@ -73,6 +73,8 @@ h6 {
     background-color: #013220;
 }
 
+
+
 /* Carousel Styling */
 .carousel-item {
     height: 100%;
@@ -149,18 +151,34 @@ h6 {
 /*End of Contact Us Styling*/
 
 /*Footer Styling*/
+
 #section-contact {
     background-color: #013220;
     padding: 20px;
     position: relative;
     width: 100%;
-    bottom: 0px;
+    bottom: 0 !important;
+    color: #ffffff;
 }
+
+#section-contact404 {
+    background-color: #013220;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0 !important;
+    color: #ffffff;
+}
+
 
 .whiteIcon{
 	color: white;
 }
-
+/* Start of Navigation Tab color change when clicked */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #343a40;
+    }
+/* End of Navigation Tab color change when clicked */
 
 /* Start of Images on menu.html*/
 .menuImages {
@@ -196,7 +214,7 @@ iframe {
     padding: 0 4px;
   }
   
-/* Create four equal columns that sits next to each other */
+/* Start of Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 33.3%;
@@ -212,7 +230,8 @@ iframe {
     border-style: solid;
     border-color: #013220;
   }
-  
+/* End of Create four equal columns that sits next to each other */
+
 /* Extra small devices (phones, 600px and down) */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media only screen and (max-width: 600px) {
@@ -228,8 +247,7 @@ iframe {
 .carousel-item img {
     height: 100vh;
     object-fit: cover;
-}
-
+    }
 }
   
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -237,7 +255,7 @@ iframe {
 .carousel-item img {
     height: 120vh;
     object-fit: cover;
-}
+    }
 }
   
 /* Medium devices (landscape tablets, 768px and up) */
@@ -245,7 +263,7 @@ iframe {
 .carousel-item img {
     height: 140vh !important;
     object-fit: cover;
-}
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -253,24 +271,15 @@ iframe {
 .carousel-item img {
     height: 150vh;
     object-fit: cover;
-}
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .carousel-item img {
-    height: 160vh;
+    height: 150vh;
     object-fit: cover;
+    }
 }
-}
-
 
 /* End of Images in event.hmtl */
-
-#section-contact, .fab{
-color: #ffffff;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-background-color: #343a40;
-}
