@@ -9,10 +9,26 @@
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
+
 2. [User Experience](#user-experience)
-    1. [Target Audience](#targer-audience)
+    1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirement)
 
+3. [User Stories](#user-stories)
+    1. [First Time User](#first-time-user)
+    2. [Returning User](#returning-user)
+    3. [Site Owner](#site-owner)
+
+4. [Design Decisions](#design-decisions)
+    1. [Design Choices](#design-choices)
+    2. [Color](#color)
+    3. [Fonts](#fonts)
+
+5. [Structure of Pages](#structure-of-pages)
+
+6. [Wireframes](#wireframes)
+    
+    
 
 ## Project Goals
 
