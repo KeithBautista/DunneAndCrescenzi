@@ -12,23 +12,24 @@ body {
     color: #013220;
 }
 
+/* Button Link*/
 .btn-link{
 	color: #ffffff !important;
 	text-decoration: none !important;
 
 }
 
-.eventHeading {
-    font-family: 'Satisfy', cursive, sans-serif;
-    font-size: 46px;
-    text-decoration: underline;
-    color: #013220;
-}
-
+/* Nav Item Styling*/
 .nav-item {
     background-color: #013220;
     color: black !important;
 }
+
+/* Start of Navigation Tab color change when clicked */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #343a40;
+    }
+/* End of Navigation Tab color change when clicked */
 
 /*Start of Underline Link Animation*/
 .cool-link {
@@ -66,11 +67,10 @@ body {
 	color: #ffffff;
 }
 
+/* Changes the Navigation Tab Color*/
 #navigationTab {
     background-color: #013220;
 }
-
-
 
 /* Carousel Styling */
 .carousel-item {
@@ -78,8 +78,7 @@ body {
     min-height: 100vh;
     background: no-repeat center 75% scroll;
     background-size: cover;
-    }
-
+}
 
 .carousel-caption{
 	font-size: 4rem;
@@ -94,7 +93,7 @@ body {
 .carousel-caption-background {
     background: rgb(52, 58, 64, 0.6);
     border-radius: 5px;
-    
+
 }
 /* End of Carousel Styling*/
 
@@ -136,23 +135,22 @@ body {
 	text-decoration: none;
 }
 
-
 #section-bookTable {
     padding: 5%;
 }
 
-#section-bookTable a {
-    color:#343a40;
-}
-
+    /*Adds Padding in the Our Locations Section in Contact.html*/
 .tab-content {
     padding: 32px;
 }
 
+    /*Changes the Link Color to Grey */
+#section-bookTable a {
+    color:#343a40;
+}
 /*End of Contact Us Styling*/
 
 /*Footer Styling*/
-
 #section-contact {
     background-color: #013220;
     padding: 20px;
@@ -171,15 +169,11 @@ body {
     color: #ffffff;
 }
 
-
+    /* Changes Social Media Icons to White */
 .whiteIcon{
 	color: white;
 }
-/* Start of Navigation Tab color change when clicked */
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: #343a40;
-    }
-/* End of Navigation Tab color change when clicked */
+/*End Footer Styling*/
 
 /* Start of Images on menu.html*/
 .menuImages {
@@ -215,7 +209,7 @@ iframe {
     padding: 0 4px;
   }
   
-/* Start of Create four equal columns that sits next to each other */
+    /* Start of Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 33.3%;
@@ -231,10 +225,9 @@ iframe {
     border-style: solid;
     border-color: #013220;
   }
-/* End of Create four equal columns that sits next to each other */
+/* End of Images in event.hmtl */
 
-/* Extra small devices (phones, 600px and down) */
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Extra small devices (phones, 600px and down) Reference from W3Schools Media Queries */
 @media only screen and (max-width: 600px) {
 .column {
     flex: 100%;
