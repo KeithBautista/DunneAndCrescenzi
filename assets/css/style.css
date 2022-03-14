@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&family=Satisfy&display=swap'); /* Fonts from Google Fonts */
 
 body {
     font-family: 'Lato', sans-serif;
@@ -6,13 +6,10 @@ body {
     margin: 0 !important; /* This will make sure that images/content take up the whole page*/
 }
 
+/* Adds an Underline to h3 elements throughout website*/
 .h3underline {
     text-decoration: underline;
     color: #013220;
-}
-
-h6 {
-    font-family: 'Lato', sans-serif;
 }
 
 .btn-link{
