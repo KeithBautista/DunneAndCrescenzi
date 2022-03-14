@@ -600,8 +600,8 @@ In order of apearance:
 - [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a>
 
 ### Code and Acknowledgements
-Thank you to Mo Shami on his feedback and guidance in getting this project over the line.
-Creating this website meant that I relied on Stack Overflow, W3Schools, Youtube, Bootstrap Documentation and of course the course content for Full Stack Development provided by Code Institute.
+- Thank you to Mo Shami on his feedback and guidance in getting this project over the line.
+- Creating this website meant that I relied on Stack Overflow, W3Schools, Youtube, Bootstrap Documentation and of course the course content for Full Stack Development provided by Code Institute.
 <a href="https://getbootstrap.com/docs/4.1/components/navbar/">Bootstrap</a> used for Navbar, Carousel, Button Format.
 <a href="https://www.w3schools.com/html/default.asp">W3Schools</a> used for Text Formatting, Text-Decoration, Media Queries 
 
