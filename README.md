@@ -582,22 +582,22 @@ Images not referenced below are owned by the developer.
 
 ### Media
 In order of apearance:
-- [carousel-1](assets/images/carousel-image1.webp): Photo by <a href="https://unsplash.com/@lum3n">LUM3N</a
-- [carousel-2](assets/images/carousel-image2.webp): Photo by <a href="https://unsplash.com/@nik_owens">Nik Owens</a
-- [carousel-3](assets/images/carousel-image3.webp): Photo by <a href="https://unsplash.com/@anniespratt">Anne Spratt</a
-- [menu-item-1](assets/images/menu-item-garlic-bread2.webp): Photo by <a href="https://unsplash.com/@sandevil">Sandevil Sandh</a
-- [menu-item-2](assets/images/menu-item-pasta-pomodoro.webp): Photo by <a href="https://unsplash.com/@mggbox">Mgg Vitchakorn</a
-- [menu-item-3](assets/images/menu-item-chocolate-tart.webp): Photo by <a href="https://unsplash.com/photos/9gnGwsRS6XY">Rens D</a
-- [menu-item-4](assets/images/menu-item-bruschetta.webp): Photo by <a href="https://unsplash.com/@margzu">Margarita Zueva</a
-- [menu-item-5](assets/images/menu-item-pasta-bolognese.webp): Photo by <a href="https://unsplash.com/@nerfee">Nerfee Mirandilla</a
-- [menu-item-6](assets/images/menu-item-kids-pasta.webp): Photo by <a href="https://www.pexels.com/@enginakyurt">Engin Akyurt</a
-- [menu-item-7](assets/images/menu-item-apple-crumble.webp): Photo by <a href="https://unsplash.com/@massimorinaldi27">Massimo Rinaldi</a
-- [gallery-catering-image-1](assets/images/gallery-catering-image1.webp): Photo by <a href="https://www.pexels.com/@expect-best-79873">Expect Best</a
-- [gallery-catering-image-2](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a
-- [gallery-catering-image-3](assets/images/gallery-catering-image3.webp): Photo by <a href="https://www.pexels.com/@pixabay">Pixabay</a
-- [gallery-catering-image-4](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a
-- [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a
-- [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a
+- [carousel-1](assets/images/carousel-image1.webp): Photo by <a href="https://unsplash.com/@lum3n">LUM3N</a>
+- [carousel-2](assets/images/carousel-image2.webp): Photo by <a href="https://unsplash.com/@nik_owens">Nik Owens</a>
+- [carousel-3](assets/images/carousel-image3.webp): Photo by <a href="https://unsplash.com/@anniespratt">Anne Spratt</a>
+- [menu-item-1](assets/images/menu-item-garlic-bread2.webp): Photo by <a href="https://unsplash.com/@sandevil">Sandevil Sandh</a>
+- [menu-item-2](assets/images/menu-item-pasta-pomodoro.webp): Photo by <a href="https://unsplash.com/@mggbox">Mgg Vitchakorn</a>
+- [menu-item-3](assets/images/menu-item-chocolate-tart.webp): Photo by <a href="https://unsplash.com/photos/9gnGwsRS6XY">Rens D</a>
+- [menu-item-4](assets/images/menu-item-bruschetta.webp): Photo by <a href="https://unsplash.com/@margzu">Margarita Zueva</a>
+- [menu-item-5](assets/images/menu-item-pasta-bolognese.webp): Photo by <a href="https://unsplash.com/@nerfee">Nerfee Mirandilla</a>
+- [menu-item-6](assets/images/menu-item-kids-pasta.webp): Photo by <a href="https://www.pexels.com/@enginakyurt">Engin Akyurt</a>
+- [menu-item-7](assets/images/menu-item-apple-crumble.webp): Photo by <a href="https://unsplash.com/@massimorinaldi27">Massimo Rinaldi</a>
+- [gallery-catering-image-1](assets/images/gallery-catering-image1.webp): Photo by <a href="https://www.pexels.com/@expect-best-79873">Expect Best</a>
+- [gallery-catering-image-2](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a>
+- [gallery-catering-image-3](assets/images/gallery-catering-image3.webp): Photo by <a href="https://www.pexels.com/@pixabay">Pixabay</a>
+- [gallery-catering-image-4](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a>
+- [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a>
+- [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a>
 
 ### Code and Acknowledgements
 Thank you to Mo Shami on his feedback and guidance in getting this project over the line.
