@@ -41,6 +41,22 @@
         1. [Frequently Asked Questions](#frequently-asked-questions)
         2. [Book a Table](#book-a-table)
         3. [Our Locations](#our-locations)
+    6. [Footer](#footer)
+    7. [404 Error](#404-error-page)
+
+10. [Validation](#validation)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+
+11. [Accessibility](#accessibility)
+
+12. [Performance](#performance)
+
+13. [Performing Tests on Multiple Devices](#performing-tests-on-multiple-devices)
+
+14. [Browser Compatability](#browser-compatability)
+
+
 
 
 
