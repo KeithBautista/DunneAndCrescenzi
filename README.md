@@ -288,14 +288,14 @@ While Accessibility, Best Practices and SEO are all 100, Performance is 59 which
 ### Performing tests on multiple devices
 
 The website was tested on the following devices below:
-    - Dell Latitude 7820
-    - OnePlus Nord
-    - Various Devices were also software tested through Google's Chrome Developer Tool which enables you to toggle the screen size of different devices.
+- Dell Latitude 7820
+- OnePlus Nord
+- Various Devices were also software tested through Google's Chrome Developer Tool which enables you to toggle the screen size of different devices.
 
 ### Browser Compatibility
 
 The website was tested on the following browsers:
-    - Google Chrome
-    - Brave
-    - Microsoft Edge
-    
+- Google Chrome
+- Brave
+- Microsoft Edge
+
