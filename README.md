@@ -5,6 +5,12 @@
 
 [Live Website](https://keithbautista.github.io/DunneAndCrescenzi/)
 
+## Table of Contents
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+
+
 ## Project Goals
 
 ### User Goals
