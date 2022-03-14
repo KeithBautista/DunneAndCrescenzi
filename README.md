@@ -237,22 +237,22 @@ The WAVE WebAIM Accessibility Tool was used to validate and evaluate the accessi
 
 <details>
 <summary>Home</summary>
-<img src="docs/html-validation-index.png">
+<img src="docs/wave-accessibility-index.png">
 </details>
 <details>
 <summary>Menu</summary>
-<img src="docs/html-validation-menu.png">
+<img src="docs/wave-accessibility-menu.png">
 </details>
 <details>
 <summary>Gallery</summary>
-<img src="docs/html-validation-gallery.png">
+<img src="docs/wave-accessibility-gallery.png">
 </details>
 <details>
 <summary>Contact Us</summary>
-<img src="docs/html-validation-contact-us.png">
+<img src="docs/wave-accessibility-contact.png">
 </details>
 <details>
 <summary>404</summary>
-<img src="docs/html-validation-404.png">
+<img src="docs/wave-accessibility-404.png">
 </details>
 
