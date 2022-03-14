@@ -177,7 +177,6 @@ This website consists of 4 pages.
 ![Gallery Page](docs/features-gallery.png)
 
 #### Contact Us
-![Contact Us]
 
 - The Contact Us page is separated into 3 separate sections as mentioned earlier
     - Frequently Asked Questions
@@ -218,6 +217,7 @@ The <a href="https://validator.w3.org/">W3C Markup Validation Service</a> was us
 <summary>Contact Us</summary>
 <img src="docs/html-validation-contact-us.png">
 </details>
+<details>
 <summary>404</summary>
 <img src="docs/html-validation-404.png">
 </details>
@@ -231,6 +231,28 @@ The <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a
 <img src="docs/css-validation.png">
 </details>
 
+### Accessibility
 
+The WAVE WebAIM Accessibility Tool was used to validate and evaluate the accessibility of each page of the site. Please find the screenshots of these below.
 
+<details>
+<summary>Home</summary>
+<img src="docs/html-validation-index.png">
+</details>
+<details>
+<summary>Menu</summary>
+<img src="docs/html-validation-menu.png">
+</details>
+<details>
+<summary>Gallery</summary>
+<img src="docs/html-validation-gallery.png">
+</details>
+<details>
+<summary>Contact Us</summary>
+<img src="docs/html-validation-contact-us.png">
+</details>
+<details>
+<summary>404</summary>
+<img src="docs/html-validation-404.png">
+</details>
 
