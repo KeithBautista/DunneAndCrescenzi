@@ -256,3 +256,27 @@ The WAVE WebAIM Accessibility Tool was used to validate and evaluate the accessi
 <img src="docs/wave-accessibility-404.png">
 </details>
 
+### Performance
+
+Tool used was Google Lighthouse which is accessible through the inspect tool, and second to last in its navbar. Like Accessibility, screenshots for performance on each page are below.
+
+<details>
+<summary>Home</summary>
+<img src="docs/lighthouse-performance-index.png">
+</details>
+<details>
+<summary>Menu</summary>
+<img src="docs/lighthouse-performance-menu.png">
+</details>
+<details>
+<summary>Gallery</summary>
+<img src="docs/lighthouse-performance-gallery.png">
+</details>
+<details>
+<summary>Contact Us</summary>
+<img src="docs/lighthouse-performance-contact.png">
+</details>
+<details>
+<summary>404</summary>
+<img src="docs/lighthouse-performance-404.png">
+</details>
