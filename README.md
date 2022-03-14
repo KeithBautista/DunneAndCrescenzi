@@ -126,6 +126,8 @@
 13. As the site owner I want the users to be able to know which location suits them best to dine in.
 14. As the site owner I would like the users to see through images on what events can be held.
 15. As the site owner I want the users to know our social media handles as word of mouth can increase our site traffic as well as restaurant traffic.
+16. As the site owner I want the users to be able to click a button rather than the back button in incorrect page has been inputted.
+
 
 ## Design Decisions
 
@@ -220,6 +222,7 @@ This website consists of 4 pages.
     - The navbar can be found on all 4 pages of the site.
     - It allows the customer to easily navigate the site.
     - Once the user hovers over a link it an animated underline activates under the link.
+        - User Story: 1 Covered
 
 ![Logo and Navbar](docs/features-nav-bar-and-logo.png)
 
@@ -227,6 +230,7 @@ This website consists of 4 pages.
 
 - The carousel consists of 3 images which actively change, they can also be manually changed using the two next and previous controls on either side of the image or by clicking on the horizontal lines on the bottom of the images.
 - In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
+    - User Story: 1, 5 Covered
 
 ![Carousel Showcase Prev and Next Buttons](docs/features-carousel-prev-next-buttons.png)
 
@@ -234,12 +238,14 @@ This website consists of 4 pages.
 
 - Included in the Menu page is a tab on the top of the page which the user is able to click. It allows the user to be able to click on the menu on which location they would prefer to dine in.
 - The menu is in a pattern in which it is easy to read, it provides the starters at the beginning and an image on the right which showcases a sample item on the menu.
+    - User Story: 1, 2, 4, 6, 11, 13 Covered
 
 ![Menu Tabs](docs/features-menu-tabs.png)
 
 ### Gallery 
 
 - There is a separate page in the website named Gallery, this provides users who visit a sample of what Dunne and Crescenzi is able to do in terms of weddings/events/catering.
+    - User Story: 2, 3, 14 Covered
 
 ![Gallery Page](docs/features-gallery.png)
 
@@ -255,15 +261,18 @@ This website consists of 4 pages.
     - Our Locations
         - Like the menu, "Our Locations" contains a tab which the user is able to click based on which location we offer is more convenient for them. Once clicked the information provided (Address, Email, Phone Number and Map Details) are updated.
         ![Locations Tab Information](docs/features-location-tabs.png)
+- User Story: 5, 7, 8, 9, 12, 13 Covered
 
 ### Footer
 
 - The footer consists of 3 equally alligned columns which provide 3 separate information. Address which provies the address, Follow Us provides the social media clickable icons and Contact Us which provides the phone number for the restaurant.
 ![Footer](docs/features-footer-social-media-handles.png)
+    - User Story: 5, 8, 10, 12, 15 Covered
 
 ### 404 Error Page
 
 - The 404.html page consists of the navigation bar as well as the footer that the other pages include. The addition in this page is an image in the middle of the screen as well as a CTA underneath which links back to the main index.html page. By doing this we are eliminating the task for the user to have to click the back button when they have entered a page in which does not exist.
+    - User Story: 16 Covered
 ![404 Error](docs/features-404-error.png)
     
 ## Validation
@@ -544,6 +553,17 @@ The website was tested on the following browsers:
 <details>
 <summary>User Story 15 Screenshot</summary>
 <img src="docs/user-story-10.png">
+</details>
+
+16. As the site owner I want the users to be able to click a button rather than the back button in incorrect page has been inputted.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 | Automatic redirection into the 404.html page | Automatic redirection with no issues and responsive | Works as expected |
+
+<details>
+<summary>User Story 16 Screenshot</summary>
+<img src="docs/features-404-error.png">
 </details>
 
 ## Bugs and their Fixes
