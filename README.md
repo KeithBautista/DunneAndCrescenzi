@@ -123,6 +123,10 @@ The section "Our Locations" follows the flow of the menu page in which that we p
 <summary>Contact Us</summary>
 <img src="docs/contact-us-wf.png">
 </details>
+<details>
+<summary>404</summary>
+<img src="docs/404-wf.png">
+</details>
 
 ### Technologies Used During Creation
 
