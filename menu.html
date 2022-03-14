@@ -20,261 +20,258 @@
 <body>
 
 <!--Start of the NavBar Section-->
-    <nav class="navbar navbar-expand-md navbar-light"> <!--This means that the navbar will expand when it is medium sized and also stay static on top of the screen-->
-        <a class="navbar-brand img-responsive" href="index.html"><img id="logo" src="assets/images/dunne-and-crescenzi-logo-white.png" alt="Dunne and Crescenzi Logo"></a> <!--Logo for Website-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNavbar" aria-label="navigation burger icon for smaller screens">
-            <span class="navbar-toggler-icon"></span> <!--Icon for the navbar-->
-        </button>
+<nav class="navbar navbar-expand-md navbar-light"> <!--This means that the navbar will expand when it is medium sized and also stay static on top of the screen-->
+    <a class="navbar-brand img-responsive" href="index.html"><img id="logo" src="assets/images/dunne-and-crescenzi-logo-white.png" alt="Dunne and Crescenzi Logo"></a> <!--Logo for Website-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNavbar" aria-label="navigation burger icon for smaller screens">
+        <span class="navbar-toggler-icon"></span> <!--Icon for the navbar-->
+    </button>
 
-        <div class="collapse navbar-collapse" id="responsiveNavbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link cool-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link cool-link" href="menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link cool-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link cool-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="responsiveNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link cool-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cool-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cool-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cool-link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <!--End of NavBar Section-->
 
 <!--Start of Navigation for Menu Dublin and Kildare-->
+<nav>
+    <div class="nav nav-pills nav-fill justify-content-center" id="navigationTab" role="tablist">
+        <a class="nav-item nav-link text-light cool-link" id="navDublinMenu" data-toggle="tab" href="#navDublin" role="tab" aria-controls="navDublin" aria-selected="true"><h3>Dublin</h3></a> <!--Like Navbar, this is set to true to make sure that it is the first one that shows when the page loads-->
+        <a class="nav-item nav-link text-light cool-link" id="navKildareMenu" data-toggle="tab" href="#navKildare" role="tab" aria-controls="navKildare" aria-selected="false"><h3>Kildare</h3></a> <!--This is set to false so that if needed, the customer can press it-->
+    </div>
+</nav>
 
-    <nav>
-        <div class="nav nav-pills nav-fill justify-content-center" id="navigationTab" role="tablist">
-            <a class="nav-item nav-link text-light cool-link" id="navDublinMenu" data-toggle="tab" href="#navDublin" role="tab" aria-controls="navDublin" aria-selected="true"><h3>Dublin</h3></a> <!--Like Navbar, this is set to true to make sure that it is the first one that shows when the page loads-->
-            <a class="nav-item nav-link text-light cool-link" id="navKildareMenu" data-toggle="tab" href="#navKildare" role="tab" aria-controls="navKildare" aria-selected="false"><h3>Kildare</h3></a> <!--This is set to false so that if needed, the customer can press it-->
-        </div>
-    </nav>
-
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="navDublin" role="tabpanel" aria-labelledby="navDublinMenu">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Antipasti</strong></h3>
-                        <h4>Garlic Bread<strong class="menuPrices">€6</strong></h4>
-                        <p>Cheesy Garlic Bread, prepared on a Ciabatta Bread. </p>
-                        <br>
-                        <h4>Garlic ‘Nduja Prawns<strong class="menuPrices">€13</strong></h4>
-                        <p>Sauteed Fresh prawns, Spicy Calabrian Salami,lemon, Garlic butter, sourdough.</p>
-                        <br>
-                        <h4>Tomato Bruschetta<strong class="menuPrices">€9.5</strong></h4>
-                        <p>Toasted Altamura sourdough, garlic, vine ripened tomatoes, basil.</p>
-                        <br>
-                        <h4>Minestrone Soup<strong class="menuPrices">€9.5</strong></h4>
-                        <p>Hearty vegetable and Tuscan bean soup, prepared daily.</p>
-                        <br>
-                        <h4>Bruschetta Rustica<strong class="menuPrices">€12</strong></h4>
-                        <p>Toasted sourdough, chargrilled peppers,house pesto,goat’s cheese and rocket.</p>
-                        <br>
-                        <h4>Caprese Salad<strong class="menuPrices">€12</strong></h4>
-                        <p>Buffalo mozzarella, vine ripe tomatoes, basil and almond pesto.</p>
-                        <br>
-                        <h4>Calamari<strong class="menuPrices">€14</strong></h4>
-                        <p>Fried squid w/ lemon pepper aioli.</p>  
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-garlic-bread2.webp" alt="Cheesy Garlic Bread on Pan">
-                    </div>
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="navDublin" role="tabpanel" aria-labelledby="navDublinMenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-center h3underline"><strong>Antipasti</strong></h3>
+                    <h4>Garlic Bread<strong class="menuPrices">€6</strong></h4>
+                    <p>Cheesy Garlic Bread, prepared on a Ciabatta Bread. </p>
+                    <br>
+                    <h4>Garlic ‘Nduja Prawns<strong class="menuPrices">€13</strong></h4>
+                    <p>Sauteed Fresh prawns, Spicy Calabrian Salami,lemon, Garlic butter, sourdough.</p>
+                    <br>
+                    <h4>Tomato Bruschetta<strong class="menuPrices">€9.5</strong></h4>
+                    <p>Toasted Altamura sourdough, garlic, vine ripened tomatoes, basil.</p>
+                    <br>
+                    <h4>Minestrone Soup<strong class="menuPrices">€9.5</strong></h4>
+                    <p>Hearty vegetable and Tuscan bean soup, prepared daily.</p>
+                    <br>
+                    <h4>Bruschetta Rustica<strong class="menuPrices">€12</strong></h4>
+                    <p>Toasted sourdough, chargrilled peppers,house pesto,goat’s cheese and rocket.</p>
+                    <br>
+                    <h4>Caprese Salad<strong class="menuPrices">€12</strong></h4>
+                    <p>Buffalo mozzarella, vine ripe tomatoes, basil and almond pesto.</p>
+                    <br>
+                    <h4>Calamari<strong class="menuPrices">€14</strong></h4>
+                    <p>Fried squid w/ lemon pepper aioli.</p>  
                 </div>
-
-                <br>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-pasta-pomodoro.webp" alt="Pomodoro Pasta on White Plate">
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Primi</strong></h3>
-                        <h4>Pasta al Pomodoro <strong class="menuPrices">€13.5</strong></h4>
-                        <p>Spaghetti, tomato and basil sauce.</p>
-                        <br>
-                        <h4>Penne Arrabbiata<strong class="menuPrices">€14.5</strong></h4>
-                        <p>Penne pasta, tomato, chilli, garlic.</p>
-                        <br>
-                        <h4>Beef + Pork Ragù<strong class="menuPrices">€17.5</strong></h4>
-                        <p>Egg tagliatelle with a slow cooked Bolognese, McLoughlin’s Butcher Irish beef + pork, parmesan cheese.</p>
-                        <br>
-                        <h4>Panzerotti Alfredo<strong class="menuPrices">€18.5</strong></h4>
-                        <p>Mushroom filled pasta with a parmesan cheese and truffle fonduta.</p>
-                        <br>
-                        <h4>Amatriciana<strong class="menuPrices">€17</strong></h4>
-                        <p>Rigatoni pasta, Tuscan pancetta bacon, tomato, hint of chilli, pecorino cheese.</p>
-                        <br>
-                        <h4>Seafood Risotto<strong class="menuPrices">€12</strong></h4>
-                        <p>Carnaroli rice, market fresh fish, vino, cherry tomatoes, dill.</p>  
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Desserts</strong></h3>
-                        <h4>House Tiramisu <strong class="menuPrices">€8</strong></h4>
-                        <p>With Vinsanto and chocolate.</p>
-                        <br>
-                        <h4>Chocolate Tart<strong class="menuPrices">€8</strong></h4>
-                        <p>With chocolate gelato, whipped cream, hazelnut.</p>
-                        <br>
-                        <h4>Warm Apple Crumble<strong class="menuPrices">€8</strong></h4>
-                        <p>Toasted spiced oats,vanilla gelato.</p>
-                        <br>
-                        <h4>Gelato Cup<strong class="menuPrices">€7</strong></h4>
-                        <p>Vanilla, chocolate,pistachio.</p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-chocolate-tart.webp" alt="circular chocolate tart on a white plate">
-                    </div>
+                
+                <div class="col-md-6">
+                    <img class="menuImages" src="assets/images/menu-item-garlic-bread2.webp" alt="Cheesy Garlic Bread on Pan">
                 </div>
             </div>
-        </div>
 
-<!--Start of Kildare Menu-->
+            <br>
 
-        <div class="tab-pane fade" id="navKildare" role="tabpanel" aria-labelledby="navKildareMenu">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Antipasti</strong></h3>
-                        <h4>Antipasto Misto<strong class="menuPrices">€21</strong></h4>
-                        <p>Tuscan charcuterie and cheeses, marinated olives, marinated veg, warm sourdough. Ideal for sharing!</p>
-                        <br>
-                        <h4>Arancini<strong class="menuPrices">€11</strong></h4>
-                        <p>Wild mushroom & tarragon Arancini with truffle & lemon aioli.</p>
-                        <br>
-                        <h4>Tomato Bruschetta<strong class="menuPrices">€8.5</strong></h4>
-                        <p>Toasted Altamura sourdough, garlic, vine ripened tomatoes, basil.</p>
-                        <br>
-                        <h4>Minestrone Toscano<strong class="menuPrices">€9.5</strong></h4>
-                        <p>Hearty vegetable and Tuscan bean soup, prepared daily.</p>
-                        <br>
-                        <h4>Crab Crostini<strong class="menuPrices">€13.5</strong></h4>
-                        <p>Anagassin Crab, Toasted Altamura sourdough, apple and mint.</p>  
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-bruschetta.webp" alt="crunchy bruschetta on wooden cutting board">
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="menuImages" src="assets/images/menu-item-pasta-pomodoro.webp" alt="Pomodoro Pasta on White Plate">
                 </div>
 
-                <br>
+                <div class="col-md-6">
+                    <h3 class="text-center h3underline"><strong>Primi</strong></h3>
+                    <h4>Pasta al Pomodoro <strong class="menuPrices">€13.5</strong></h4>
+                    <p>Spaghetti, tomato and basil sauce.</p>
+                    <br>
+                    <h4>Penne Arrabbiata<strong class="menuPrices">€14.5</strong></h4>
+                    <p>Penne pasta, tomato, chilli, garlic.</p>
+                    <br>
+                    <h4>Beef + Pork Ragù<strong class="menuPrices">€17.5</strong></h4>
+                    <p>Egg tagliatelle with a slow cooked Bolognese, McLoughlin’s Butcher Irish beef + pork, parmesan cheese.</p>
+                    <br>
+                    <h4>Panzerotti Alfredo<strong class="menuPrices">€18.5</strong></h4>
+                    <p>Mushroom filled pasta with a parmesan cheese and truffle fonduta.</p>
+                    <br>
+                    <h4>Amatriciana<strong class="menuPrices">€17</strong></h4>
+                    <p>Rigatoni pasta, Tuscan pancetta bacon, tomato, hint of chilli, pecorino cheese.</p>
+                    <br>
+                    <h4>Seafood Risotto<strong class="menuPrices">€12</strong></h4>
+                    <p>Carnaroli rice, market fresh fish, vino, cherry tomatoes, dill.</p>  
+                </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-pasta-bolognese.webp" alt="bolognese in a grey bowl">
-                    </div>
+            <br>
 
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Primi</strong></h3>
-                        <h4>Spaghetti Bolognese<strong class="menuPrices">€17</strong></h4>
-                        <p>Spaghetti pasta with slow cooked Bolognese, McLoughlin’s Butcher Irish beef, parmesan cheese.</p>
-                        <br>
-                        <h4>Amatriciana<strong class="menuPrices">€16.5</strong></h4>
-                        <p>Rigatoni pasta, Tuscan pancetta bacon, tomato, hint of chilli, pecorino cheese.</p>
-                        <br>
-                        <h4>Penne with Prawns<strong class="menuPrices">€18.5</strong></h4>
-                        <p>Penne pasta, Atlantic prawns, garlic & Nduja butter, fresh herbs.</p>
-                        <br>
-                        <h4>Burger Italiano<strong class="menuPrices">€16.5</strong></h4>
-                        <p>1/2 lb McLoughlin’s beef, Provolone cheese, lettuce and tomato. Served with skin on French fries or salad.</p>
-                        <br>
-                        <h4>Chicken Burger<strong class="menuPrices">€16.5</strong></h4>
-                        <p>Chicken fillet, tomato, lettuce, Provolone cheese, basil aioli. Served with skin on French fries or salad.</p>
-                        <br>
-                        <h4>Fish n' Chips<strong class="menuPrices">€17</strong></h4>
-                        <p>Fresh North Atlantic Hake, crispy beer batter, hand cut fries, chilli and lime aioli.</p>  
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-center h3underline"><strong>Desserts</strong></h3>
+                    <h4>House Tiramisu <strong class="menuPrices">€8</strong></h4>
+                    <p>With Vinsanto and chocolate.</p>
+                    <br>
+                    <h4>Chocolate Tart<strong class="menuPrices">€8</strong></h4>
+                    <p>With chocolate gelato, whipped cream, hazelnut.</p>
+                    <br>
+                    <h4>Warm Apple Crumble<strong class="menuPrices">€8</strong></h4>
+                    <p>Toasted spiced oats,vanilla gelato.</p>
+                    <br>
+                    <h4>Gelato Cup<strong class="menuPrices">€7</strong></h4>
+                    <p>Vanilla, chocolate,pistachio.</p>
                 </div>
 
-                <br>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Kids Menu €9.75</strong></h3>
-                        <h4>1) Spaghetti</h4>
-                        <p>Tomato and Basil / Bolognese / Plain.</p>
-                        <br>
-                        <h4>2) Drink</h4>
-                        <p>Glass of Milk / Orange Juice / Apple Juice.</p>
-                        <br>
-                        <h4>3) Gelato (1 Scoop)</h4>
-                        <p>Vanilla Pod / Chocolate / Strawberry / Pistachio.</p>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-kids-pasta.webp" alt="tagliatelle kids pasta pre wound">
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="menuImages" src="assets/images/menu-item-apple-crumble.webp" alt="warm apple crumble served on a clear dish">
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="text-center h3underline"><strong>Desserts</strong></h3>
-                        <h4>House Tiramisu <strong class="menuPrices">€8</strong></h4>
-                        <p>With Vinsanto and chocolate.</p>
-                        <br>
-                        <h4>Chocolate Fondant<strong class="menuPrices">€7</strong></h4>
-                        <p>Chocolate pud with a warm chocolate centre, served with pistachio gelato.</p>
-                        <br>
-                        <h4>Warm Apple Crumble<strong class="menuPrices">€8</strong></h4>
-                        <p>Toasted spiced oats,vanilla gelato.</p>
-                        <br>
-                        <h4>Amalfi Lemon Tart<strong class="menuPrices">€7</strong></h4>
-                        <p>With wild berry jus.</p>
-                    </div>
+                <div class="col-md-6">
+                    <img class="menuImages" src="assets/images/menu-item-chocolate-tart.webp" alt="circular chocolate tart on a white plate">
                 </div>
             </div>
         </div>
     </div>
 
+<!--Start of Kildare Menu-->
+<div class="tab-pane fade" id="navKildare" role="tabpanel" aria-labelledby="navKildareMenu">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center h3underline"><strong>Antipasti</strong></h3>
+                <h4>Antipasto Misto<strong class="menuPrices">€21</strong></h4>
+                <p>Tuscan charcuterie and cheeses, marinated olives, marinated veg, warm sourdough. Ideal for sharing!</p>
+                <br>
+                <h4>Arancini<strong class="menuPrices">€11</strong></h4>
+                <p>Wild mushroom & tarragon Arancini with truffle & lemon aioli.</p>
+                <br>
+                <h4>Tomato Bruschetta<strong class="menuPrices">€8.5</strong></h4>
+                <p>Toasted Altamura sourdough, garlic, vine ripened tomatoes, basil.</p>
+                <br>
+                <h4>Minestrone Toscano<strong class="menuPrices">€9.5</strong></h4>
+                <p>Hearty vegetable and Tuscan bean soup, prepared daily.</p>
+                <br>
+                <h4>Crab Crostini<strong class="menuPrices">€13.5</strong></h4>
+                <p>Anagassin Crab, Toasted Altamura sourdough, apple and mint.</p>  
+            </div>
+            
+            <div class="col-md-6">
+                <img class="menuImages" src="assets/images/menu-item-bruschetta.webp" alt="crunchy bruschetta on wooden cutting board">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img class="menuImages" src="assets/images/menu-item-pasta-bolognese.webp" alt="bolognese in a grey bowl">
+            </div>
+
+            <div class="col-md-6">
+                <h3 class="text-center h3underline"><strong>Primi</strong></h3>
+                <h4>Spaghetti Bolognese<strong class="menuPrices">€17</strong></h4>
+                <p>Spaghetti pasta with slow cooked Bolognese, McLoughlin’s Butcher Irish beef, parmesan cheese.</p>
+                <br>
+                <h4>Amatriciana<strong class="menuPrices">€16.5</strong></h4>
+                <p>Rigatoni pasta, Tuscan pancetta bacon, tomato, hint of chilli, pecorino cheese.</p>
+                <br>
+                <h4>Penne with Prawns<strong class="menuPrices">€18.5</strong></h4>
+                <p>Penne pasta, Atlantic prawns, garlic & Nduja butter, fresh herbs.</p>
+                <br>
+                <h4>Burger Italiano<strong class="menuPrices">€16.5</strong></h4>
+                <p>1/2 lb McLoughlin’s beef, Provolone cheese, lettuce and tomato. Served with skin on French fries or salad.</p>
+                <br>
+                <h4>Chicken Burger<strong class="menuPrices">€16.5</strong></h4>
+                <p>Chicken fillet, tomato, lettuce, Provolone cheese, basil aioli. Served with skin on French fries or salad.</p>
+                <br>
+                <h4>Fish n' Chips<strong class="menuPrices">€17</strong></h4>
+                <p>Fresh North Atlantic Hake, crispy beer batter, hand cut fries, chilli and lime aioli.</p>  
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center h3underline"><strong>Kids Menu €9.75</strong></h3>
+                <h4>1) Spaghetti</h4>
+                <p>Tomato and Basil / Bolognese / Plain.</p>
+                <br>
+                <h4>2) Drink</h4>
+                <p>Glass of Milk / Orange Juice / Apple Juice.</p>
+                <br>
+                <h4>3) Gelato (1 Scoop)</h4>
+                <p>Vanilla Pod / Chocolate / Strawberry / Pistachio.</p>
+            </div>
+            
+            <div class="col-md-6">
+                <img class="menuImages" src="assets/images/menu-item-kids-pasta.webp" alt="tagliatelle kids pasta pre wound">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img class="menuImages" src="assets/images/menu-item-apple-crumble.webp" alt="warm apple crumble served on a clear dish">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center h3underline"><strong>Desserts</strong></h3>
+                <h4>House Tiramisu <strong class="menuPrices">€8</strong></h4>
+                <p>With Vinsanto and chocolate.</p>
+                <br>
+                <h4>Chocolate Fondant<strong class="menuPrices">€7</strong></h4>
+                <p>Chocolate pud with a warm chocolate centre, served with pistachio gelato.</p>
+                <br>
+                <h4>Warm Apple Crumble<strong class="menuPrices">€8</strong></h4>
+                <p>Toasted spiced oats,vanilla gelato.</p>
+                <br>
+                <h4>Amalfi Lemon Tart<strong class="menuPrices">€7</strong></h4>
+                <p>With wild berry jus.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 <!--End of Navigation for Menu Dublin and Kildare-->
 
 <!--Start of Footer-->
-    <section id="section-contact">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-md-4 text-center">
-                <h4><strong>Address <i class="fa fa-compass fa-1" aria-hidden="true"></i></strong></h4><br>
-                <p>16 Frederick St S, Dublin</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <h4><strong>Follow Us</strong></h4><br>
-                <ul class="list-unstyled">
-                    <li class="list-inline-item cool-link">
-                        <a href="https://www.instagram.com/dunneandcrescenzi/" target="_blank" aria-label="instagram icon"><i class="fab fa-instagram fa-2x whiteIcon"></i></a>
-                    </li>
-                    <li class="list-inline-item cool-link">
-                        <a href="https://twitter.com/dunnecrescenzi?lang=en" target="_blank" aria-label="twitter icon"><i class="fab fa-twitter fa-2x whiteIcon"></i></a>
-                    </li>
-                    <li class="list-inline-item cool-link">
-                        <a href="https://www.facebook.com/DunneandCrescenzi/" target="_blank" aria-label="facebook icon"><i class="fab fa-facebook fa-2x whiteIcon"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 text-center">
-                <h4><strong>Contact Us <i class="fa fa-phone fa-1" aria-hidden="true"></i></strong></h4><br>
-                <p>(083) 123 1234</p>
-            </div>
-            </div>
-            <p class="text-center">Copyright © Dunne and Crescenzi</p>
+<section id="section-contact">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4 text-center">
+            <h4><strong>Address <i class="fa fa-compass fa-1" aria-hidden="true"></i></strong></h4><br>
+            <p>16 Frederick St S, Dublin</p>
         </div>
-    </section>
+        <div class="col-md-4 text-center">
+            <h4><strong>Follow Us</strong></h4><br>
+            <ul class="list-unstyled">
+                <li class="list-inline-item cool-link">
+                    <a href="https://www.instagram.com/dunneandcrescenzi/" target="_blank" aria-label="instagram icon"><i class="fab fa-instagram fa-2x whiteIcon"></i></a>
+                </li>
+                <li class="list-inline-item cool-link">
+                    <a href="https://twitter.com/dunnecrescenzi?lang=en" target="_blank" aria-label="twitter icon"><i class="fab fa-twitter fa-2x whiteIcon"></i></a>
+                </li>
+                <li class="list-inline-item cool-link">
+                    <a href="https://www.facebook.com/DunneandCrescenzi/" target="_blank" aria-label="facebook icon"><i class="fab fa-facebook fa-2x whiteIcon"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4 text-center">
+            <h4><strong>Contact Us <i class="fa fa-phone fa-1" aria-hidden="true"></i></strong></h4><br>
+            <p>(083) 123 1234</p>
+        </div>
+        </div>
+        <p class="text-center">Copyright © Dunne and Crescenzi</p>
+    </div>
+</section>
 <!--End of Footer-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
