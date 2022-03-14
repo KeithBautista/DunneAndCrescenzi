@@ -32,6 +32,18 @@
 
 8. [Frameworks & Tools](#frameworks-&-tools)
 
+9. [Features](#features)
+    1. [Logo and Navigation Bar](#logo-and-navigation-bar)
+    2. [Carousel](#carousel)
+    3. [Menu and Menu Tabs](#menu-and-menu-tabs)
+    4. [Gallery](#gallery)
+    5. [Contact Us](#contact-us)
+        1. [Frequently Asked Questions](#frequently-asked-questions)
+        2. [Book a Table](#book-a-table)
+        3. [Our Locations](#our-locations)
+
+
+
 
     
     
