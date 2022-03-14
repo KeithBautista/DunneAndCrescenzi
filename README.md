@@ -145,6 +145,8 @@ The section "Our Locations" follows the flow of the menu page in which that we p
 - Pexels
 - imagecompressor (Compressing Images)
 - cloudconvert (Converting Images into WebP Format)
+- Am I Responsive
+- Google Lens
 
 ## Features
 
@@ -534,3 +536,11 @@ In order of apearance:
 - [gallery-catering-image-4](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a
 - [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a
 - [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a
+
+## Code and Acknowledgements
+Thank you to Mo Shami on his feedback and guidance in getting this project over the line.
+Creating this website meant that I relied on Stack Overflow, W3Schools, Youtube, Bootstrap Documentation and of course the course content for Full Stack Development provided by Code Institute.
+<a href="https://getbootstrap.com/docs/4.1/components/navbar/">Bootstrap</a> used for Navbar, Carousel, Button Format.
+<a href="https://www.w3schools.com/html/default.asp">W3Schools</a> used for Text Formatting, Text-Decoration, Media Queries 
+
+Please be advised that this project is for educational use only and was created for the Code Institute Full Stack Module.
