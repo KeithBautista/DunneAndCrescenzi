@@ -596,7 +596,7 @@ In order of apearance:
 - [gallery-catering-image-2](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a>
 - [gallery-catering-image-3](assets/images/gallery-catering-image3.webp): Photo by <a href="https://www.pexels.com/@pixabay">Pixabay</a>
 - [gallery-catering-image-4](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a>
-- [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a>
+- [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">Katrien Sterckx</a>
 - [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a>
 
 ### Code and Acknowledgements
