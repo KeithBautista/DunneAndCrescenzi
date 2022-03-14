@@ -161,7 +161,6 @@ This website consists of 4 pages.
 - The carousel consists of 3 images which actively change, they can also be manually changed using the two next and previous controls on either side of the image or by clicking on the horizontal lines on the bottom of the images.
 - In the middle of the image is a Call To Action named "Book a Table" which once clicked navigates to the contact us page where the user is able to book a table using the form.
 
-![Carousel CTA Button](docs/features-carousel-cta-button.png)
 ![Carousel Showcase Prev and Next Buttons](docs/features-carousel-prev-next-buttons.png)
 
 #### Menu and Menu Tabs
@@ -170,7 +169,6 @@ This website consists of 4 pages.
 - The menu is in a pattern in which it is easy to read, it provides the starters at the beginning and an image on the right which showcases a sample item on the menu.
 
 ![Menu Tabs](docs/features-menu-tabs.png)
-![Menu Dessert Section](docs/features-menu-desserts.png)
 
 #### Gallery 
 
@@ -192,6 +190,11 @@ This website consists of 4 pages.
         - Like the menu, "Our Locations" contains a tab which the user is able to click based on which location we offer is more convenient for them. Once clicked the information provided (Address, Email, Phone Number and Map Details) are updated.
         ![Locations Tab](docs/features-location-tabs.png)
         ![Locations Tab Information](docs/features-location-tabs2.png)
+
+#### 404 Error Page
+
+- The 404.html page consists of the navigation bar as well as the footer that the other pages include. The addition in this page is an image in the middle of the screen as well as a CTA underneath which links back to the main index.html page. By doing this we are eliminating the task for the user to have to click the back button when they have entered a page in which does not exist.
+![404 Error](docs/features-404-error.png)
     
 ### Validation
 
