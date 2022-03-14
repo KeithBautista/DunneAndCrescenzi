@@ -305,7 +305,7 @@ The website was tested on the following browsers:
 
 ## Testing User Stories
 
-#### First Time User
+### First Time User
 
 1. As a first time user I would like to see a simple layout that is easily navigatable.
 
@@ -364,7 +364,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-5_1.png">
 </details>
 
-#### Returning User
+### Returning User
 
 6. As a returning user I would like to see the menu for the different location that they offer.
 
@@ -423,7 +423,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-10.png">
 </details>
 
-#### Site Owner
+### Site Owner
 
 11. As the site owner I want users to know what what the restaurant offers and the prices.
 
@@ -460,7 +460,6 @@ The website was tested on the following browsers:
 <img src="docs/user-story-8.png">
 </details>
 
-
 14. As the site owner I would like the users to see through images on what events can be held.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -482,3 +481,56 @@ The website was tested on the following browsers:
 <summary>User Story 15 Screenshot</summary>
 <img src="docs/user-story-10.png">
 </details>
+
+## Bugs and their Fixes
+
+| **Bug** | **Fix** |
+|-------------|------------|
+|Div Alt Content for Carousel as this will appear as an error during validation| Reformat Carousel so that it uses img rather than style: background|
+|Responsiveness of Carousel Images| Implement multiple media queries which change the image height based on screen size|
+|Rather lacking contrast between the carousel text and the image itself| Implemented a background on the carousel text and set its background to rgb with a 4th input which is the alpha, this mimics opacity without touching the text |
+|Tab once toggled matches white background| Change background to dark shade mentioned in Color Descisions above|
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://keithbautista.github.io/DunneAndCrescenzi/"
+- Prior to this, I used the GitPod Interface to create the website, please note that GitPod is linked with GitHub which made it easy to make any changes, see changes in real time and also commit and push changes to GitHub.
+
+To fork the following repository
+1. Go to the GitHub repository.
+2. Click on Fork icon in top right hand corner of the page.
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code Tab above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+## Credits 
+
+Images not referenced below are owned by the developer.
+
+### Media
+In order of apearance:
+- [carousel-1](assets/images/carousel-image1.webp): Photo by <a href="https://unsplash.com/@lum3n">LUM3N</a
+- [carousel-2](assets/images/carousel-image2.webp): Photo by <a href="https://unsplash.com/@nik_owens">Nik Owens</a
+- [carousel-3](assets/images/carousel-image3.webp): Photo by <a href="https://unsplash.com/@anniespratt">Anne Spratt</a
+- [menu-item-1](assets/images/menu-item-garlic-bread2.webp): Photo by <a href="https://unsplash.com/@sandevil">Sandevil Sandh</a
+- [menu-item-2](assets/images/menu-item-pasta-pomodoro.webp): Photo by <a href="https://unsplash.com/@mggbox">Mgg Vitchakorn</a
+- [menu-item-3](assets/images/menu-item-chocolate-tart.webp): Photo by <a href="https://unsplash.com/photos/9gnGwsRS6XY">Rens D</a
+- [menu-item-4](assets/images/menu-item-bruschetta.webp): Photo by <a href="https://unsplash.com/@margzu">Margarita Zueva</a
+- [menu-item-5](assets/images/menu-item-pasta-bolognese.webp): Photo by <a href="https://unsplash.com/@nerfee">Nerfee Mirandilla</a
+- [menu-item-6](assets/images/menu-item-kids-pasta.webp): Photo by <a href="https://www.pexels.com/@enginakyurt">Engin Akyurt</a
+- [menu-item-7](assets/images/menu-item-apple-crumble.webp): Photo by <a href="https://unsplash.com/@massimorinaldi27">Massimo Rinaldi</a
+- [gallery-catering-image-1](assets/images/gallery-catering-image1.webp): Photo by <a href="https://www.pexels.com/@expect-best-79873">Expect Best</a
+- [gallery-catering-image-2](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a
+- [gallery-catering-image-3](assets/images/gallery-catering-image3.webp): Photo by <a href="https://www.pexels.com/@pixabay">Pixabay</a
+- [gallery-catering-image-4](assets/images/gallery-catering-image2.webp): Photo by <a href="https://www.pexels.com/@mat-brown-150387">Mat Brown</a
+- [gallery-catering-image-5](assets/images/gallery-catering-image5.webp): Photo by <a href="https://unsplash.com/photos/fn0xXL9szcU">https://unsplash.com/@katriensterckx</a
+- [gallery-catering-image-6](assets/images/gallery-catering-image6.webp): Photo by <a href="https://unsplash.com/@medinacatering">Medina Catering</a
