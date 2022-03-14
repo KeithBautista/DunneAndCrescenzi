@@ -191,8 +191,7 @@ This website consists of 4 pages.
         ![Book a Table Form](docs/features-contact-form.png)
     - Our Locations
         - Like the menu, "Our Locations" contains a tab which the user is able to click based on which location we offer is more convenient for them. Once clicked the information provided (Address, Email, Phone Number and Map Details) are updated.
-        ![Locations Tab](docs/features-location-tabs.png)
-        ![Locations Tab Information](docs/features-location-tabs2.png)
+        ![Locations Tab Information](docs/features-location-tabs.png)
 
 #### 404 Error Page
 
@@ -203,7 +202,7 @@ This website consists of 4 pages.
 
 #### HTML Validation
 
-The <a href="https://validator.w3.org/">W3C Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation.
+The <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> was used to validate the HTML of the site. Shown below are screenshots of the validation.
 
 <details>
 <summary>Home</summary>
@@ -228,7 +227,7 @@ The <a href="https://validator.w3.org/">W3C Markup Validation Service</a> was us
 
 #### CSS Validation
 
-The <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a> was used to validate the CSS of the site. Shown below are screenshots of the validation.
+The <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> was used to validate the CSS of the site. Shown below are screenshots of the validation.
 
 <details>
 <summary>Style.CSS External Style Sheet</summary>
@@ -275,6 +274,7 @@ Tool used was Google Lighthouse which is accessible through the inspect tool, an
 <details>
 <summary>Gallery</summary>
 <img src="docs/lighthouse-performance-gallery.png">
+While Accessibility, Best Practices and SEO are all 100, Performance is 59 which is to be expected due to the amount of images within the gallery. Optimization attempts were to compress each image as well as convert from PNG to WebP which was recommended directly from Google as it was developed by them.
 </details>
 <details>
 <summary>Contact Us</summary>
@@ -284,3 +284,18 @@ Tool used was Google Lighthouse which is accessible through the inspect tool, an
 <summary>404</summary>
 <img src="docs/lighthouse-performance-404.png">
 </details>
+
+### Performing tests on multiple devices
+
+The website was tested on the following devices below:
+    - Dell Latitude 7820
+    - OnePlus Nord
+    - Various Devices were also software tested through Google's Chrome Developer Tool which enables you to toggle the screen size of different devices.
+
+### Browser Compatibility
+
+The website was tested on the following browsers:
+    - Google Chrome
+    - Brave
+    - Microsoft Edge
+    
